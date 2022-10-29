@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0%;
+        }
+        body{
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1920px-Altja_j%C3%B5gi_Lahemaal.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+        }  
+
+        header{
+            background-color: rgba(0,0,0,0.5);
+            position: sticky;
+            top: 0px;
+        }
+
+        header nav ul{
+            overflow: hidden;
+        } 
+        header nav ul li{
+            float: left;
+            list-style-type: none;
+            margin: 15px 0px;
+        } 
+        header nav ul li a{
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+            font-size: 26px;
+            color: white;
+            padding: 20px;
+        } 
+        #search-box{
+            float: right;
+            margin: 10px 20px 0 0;
+        }
+        #search-box input[type="search"]{
+            float: right;
+            margin: 10px 40px 20px 0;
+            width: 200px;
+            border: none;
+            opacity: 0.8;
+            padding: 3px;
+            border-radius: 15px;
+        }
+
+        /* --------------section .dabba------------------ */
+
+        section{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        section .dabba{
+            width: 15%;
+            background-color: rgba(255,255,0,0.4);
+            height: 500px;
+            border-radius: 20px;
+
+            padding: 20px;
+            text-align: center;
+
+            margin-top: 370px;
+            transition: all 0.7s;
+        }
+
+        section .dabba:hover{
+            background-color: white;
+            margin-top: 300px;
+
+            
+        }
+
+        .logo{
+            font-size: 100px;
+            animation: ankit 1s alternate infinite;
+        }
+
+        @keyframes ankit{
+            0%{
+                font-size: 80px;
+                padding: 0px;
+            }
+            100%{
+                font-size: 120px;
+                padding: 40px;
+            }
+        }
+
+
+    </style>
+</head>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/62d0156eb0d10b6f3e7c52a9/1g7ud7frq';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#"> <span class="material-icons icon"> home </span> HOME </a>|</li>
+                <li> <a href="#"> <span class="material-icons icon"> newspaper </span> NEWS </a></li>
+                <li> <a href="#"> <span class="material-icons icon"> email</span> CONTACT US </a></li>
+                <div id="search-box">
+                    <input type="search" name="" id="sbox">
+                </div>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <section>
+        <div class="dabba">
+            <span class="material-icons logo" > energy_savings_leaf </span> <br>
+            <h1>Save Trees</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam eligendi cumque placeat ab quibusdam explicabo vitae consequatur sit pariatur, maiores repudiandae quod quos rem.</p>
+        </div>
+        <div class="dabba">
+            <span class="material-icons logo"> forest </span> <br>
+            <h1>Save Nature</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam eligendi cumque placeat ab quibusdam explicabo vitae consequatur sit pariatur, maiores repudiandae quod quos rem.</p>
+        </div>
+        <div class="dabba">
+            <span class="material-icons logo"> escalator_warning </span>
+            <h1>Save Future</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsam eligendi cumque placeat ab quibusdam explicabo vitae consequatur sit pariatur, maiores repudiandae quod quos rem.</p>
+        </div>
+    </section>
+
+</body>
+</html>
